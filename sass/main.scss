@@ -1,0 +1,113 @@
+@import "./base/reset";
+@import "./base/base";
+@import "./utils/variables";
+@import "./utils/maps";
+@import "./utils/mixins";
+
+body{
+    background: url("../images/pattern-background-desktop.png") $color-secondary repeat-x ;
+}
+
+main{
+    display: flex; 
+}
+
+.card{
+    width: 30rem;
+    height: auto;
+    margin: auto;
+    background-color: white;
+    border-radius: $border-radius;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    @include small-mobile{
+        width: 35rem;
+    }
+    @include tablet{
+        width: 40rem;
+    }
+    
+        &__image{
+            width: 100%;
+            border-radius: 10px 10px 0 0;
+        }
+
+        &__title{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+            margin: $margin;
+                h1{
+                    font-size: 2rem;
+                    margin: $margin;
+                    font-weight: 900;
+                }
+                p{
+                    text-align: center;
+                    color: hsl(224, 23%, 55%);
+                    font-weight: 300;
+                    line-height: 20px;
+                }
+        }
+
+        &__btn{
+            background-color: $color-primary;
+            color: $color-secondary;
+            border-radius: $border-radius;
+            width: 80%;
+            border: none;
+            padding: 10px;
+            font-weight:900;
+            margin: $margin;
+        }
+
+        &__link{
+            color:hsl(224, 23%, 55%);
+            text-decoration: none;
+            font-weight:700;
+            font-size: 1.3rem;
+            margin :$margin;
+
+        }
+}
+
+.annual-plan{
+    background-color: lighten($color-secondary, 3.5%);
+    width: 80%;
+    border-radius: $border-radius;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:5px;
+    margin: $margin;
+    font-size: 1.3rem;
+        &__price{
+            line-height: 18px;
+            span{
+                font-weight: bold;
+            }
+            p{
+                color: hsl(224, 23%, 55%);
+            }
+        }
+
+        &__link{
+            margin: 30px;
+        }
+}
+
+.attribution{
+    font-size: 1.2rem;
+    padding: 3px;
+    text-align: center;
+    margin : $margin;
+}
+
+
+
+
+
+
