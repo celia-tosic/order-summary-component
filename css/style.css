@@ -129,12 +129,19 @@ main {
   font-weight: 900;
   margin: 10px;
 }
+.card__btn:hover {
+  background-color: hsl(224deg, 23%, 55%);
+  cursor: pointer;
+}
 .card__link {
   color: hsl(224deg, 23%, 55%);
   text-decoration: none;
   font-weight: 700;
   font-size: 1.3rem;
   margin: 10px;
+}
+.card__link:hover {
+  color: black;
 }
 
 .annual-plan {
@@ -159,6 +166,10 @@ main {
 }
 .annual-plan__link {
   margin: 30px;
+  font-weight: bold;
+}
+.annual-plan__link:hover {
+  color: hsl(224deg, 23%, 55%);
 }
 
 .attribution {
