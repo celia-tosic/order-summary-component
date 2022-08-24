@@ -44,11 +44,12 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 - SCSS
 - Flexbox
 - Mobile-first
+- Autoprefixer
 
 
 ### What I learned
 
-This project allowed me to practice SCSS !
+This project allowed me to practice SCSS and to use Autoprefixer !
 
 ## Author
 
