@@ -34,7 +34,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 ### Links
 
 - <a href="https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj">Challenge URL</a>
-- <a href="https://cellmixfr.github.io/Order-summary-component/">Live Site URL</a>
+- <a href="https://celia-tosic.github.io/order-summary-component/">Live Site URL</a>
 
 ## My process
 
